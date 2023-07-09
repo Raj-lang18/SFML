@@ -170,7 +170,7 @@ int menu :: options () {
                  //single player
 
                 else if(single.getGlobalBounds().contains(Vector2f(mousePos))){
-                    singlePlayer playsingle;
+                    SinglePlayer playsingle;
                     playsingle.singleplay();
                     
                    
