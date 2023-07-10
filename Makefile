@@ -4,4 +4,4 @@ compile:
     g++ -Isrc/include -c *.cpp
 
 link:
-    g++ *.o -o main -Lsrc/lib -lsfml-graphics -lsfml-window -lsfml-system
+    g++ *.o -o main -Lsrc/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
